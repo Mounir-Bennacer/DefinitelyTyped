@@ -17,6 +17,7 @@ export interface ScheduledTask {
     stop: () => this;
     destroy: () => void;
     getStatus: () => string;
+    now: () => this;
 }
 
 export interface ScheduleOptions {
